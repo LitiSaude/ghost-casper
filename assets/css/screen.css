@@ -605,13 +605,13 @@ production stylesheet in assets/built/screen.css
     letter-spacing: -0.005em;
     font-size: 1.6rem;
     border-radius: 48px;
-    color: #fff;
-    background: var(--ghost-accent-color);
+    color: #FFFFFF;
+    background: #735ABF;
 }
 
 .has-cover .gh-head-button {
-    color: var(--color-darkgrey);
-    background: #fff;
+    color: #FFFFFF;
+    background: #735ABF;
 }
 
 @media (max-width: 767px) {
