@@ -469,7 +469,7 @@ production stylesheet in assets/built/screen.css
 .gh-head-menu .nav a {
     display: inline-block;
     line-height: 1.7;
-    color: inherit;
+    color: #1B0035;
 }
 
 .gh-head-menu .nav a:hover {
@@ -592,6 +592,7 @@ production stylesheet in assets/built/screen.css
 .gh-head-link {
     font-weight: 500;
     color: inherit;
+    display: none;
 }
 
 .gh-head-button {
