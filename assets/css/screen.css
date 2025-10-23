@@ -3069,6 +3069,13 @@ html.dark-mode .footer-cta-title {
     background: none;
 }
 
+/* Silva Display Font Styles */
+.site-description {
+    font-family: "silva-display", serif;
+    font-weight: 200;
+    font-style: italic;
+}
+
 /*
 
 Hey! You reached the end.
