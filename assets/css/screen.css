@@ -991,8 +991,9 @@ production stylesheet in assets/built/screen.css
 .post-card-title {
     margin: 0;
     font-size: 2.6rem;
-    font-weight: 800;
+    font-weight: 500;
     line-height: 1.2;
+    font-family: "Outfit", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
 }
 
 .post-card-content-link:hover .post-card-title {
@@ -1820,7 +1821,8 @@ iframe.instagram-media+script+ :not([id]) {
 .footer-cta-title {
     margin: 0 0 min(24px, 6.4vmin);
     font-size: clamp(2.6rem, 5vw, 3.8rem);
-    font-weight: 800;
+    font-weight: 500;
+    font-family: "Outfit", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
 }
 
 .has-serif-title:not([class*=" gh-font-heading"]):not([class^="gh-font-heading"]) .footer-cta-title {
@@ -3070,7 +3072,7 @@ html.dark-mode .footer-cta-title {
 }
 
 /* Silva Display Font Styles */
-.site-description {
+.site-description .silva-text {
     font-family: "silva-display", serif;
     font-weight: 200;
     font-style: italic;
