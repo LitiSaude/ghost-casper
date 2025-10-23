@@ -591,7 +591,12 @@ production stylesheet in assets/built/screen.css
 
 .gh-head-link {
     font-weight: 500;
+<<<<<<< HEAD
+    color: inherit;
+    display: none;
+=======
     color: #1B0035;
+>>>>>>> a927709408c8ef9f371d0fd3008a94931fdf5504
 }
 
 .gh-head-button {
@@ -604,13 +609,13 @@ production stylesheet in assets/built/screen.css
     letter-spacing: -0.005em;
     font-size: 1.6rem;
     border-radius: 48px;
-    color: #fff;
-    background: var(--ghost-accent-color);
+    color: #FFFFFF;
+    background: #735ABF;
 }
 
 .has-cover .gh-head-button {
-    color: var(--color-darkgrey);
-    background: #fff;
+    color: #FFFFFF;
+    background: #735ABF;
 }
 
 @media (max-width: 767px) {
@@ -686,13 +691,13 @@ production stylesheet in assets/built/screen.css
     width: 24px;
     height: 1px;
     content: "";
-    background-color: var(--color-darkgrey);
+    background-color: #1B0035;
     transition: all 0.2s cubic-bezier(0.04, 0.04, 0.12, 0.96) 0.1008s;
 }
 
 .has-cover .gh-burger::before,
 .has-cover .gh-burger::after {
-    background-color: #fff;
+    background-color: #1B0035;
 }
 
 .gh-burger::before {
